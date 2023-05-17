@@ -32,7 +32,7 @@ pipeline{
                 failure{
                      echo "Ce bloc s'affiche quand y'a une erreur"
                     // notification par mail, slack
-                ''
+                }
             }
         }
     }
