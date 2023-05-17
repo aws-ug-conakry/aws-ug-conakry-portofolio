@@ -18,6 +18,7 @@ pipeline{
                 s3Upload(file:'nimba-2.png', bucket:'aws-ug-conakry', path:'')
                 s3Upload(file:'ug-conakry.png', bucket:'aws-ug-conakry', path:'')
                 s3Upload(file:'whatsapp.png', bucket:'aws-ug-conakry', path:'')
+                s3Upload(file:'github.png', bucket:'aws-ug-conakry', path:'')
               }
             }
             post{
